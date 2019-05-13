@@ -5,9 +5,51 @@
     <title>Lab 2</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
-  <body>
+  <body background="images/skybackground.jpeg">
     
-    <h1>Lab 2</h1>
+    <h1>Forecast: Weather or not you want it</h1>
+
+    <nav>
+      <pre>
+            <button><a href="pricing.html" style="color: black">Sponsors</a></button>                <button>Locations</button>                <button><a href="training.html" style="color: black">Employees</a></button>
+        </pre>
+    </nav>
+
+    <div class="description">
+      Enter the name of a city within the United States to see the 5-Day forecast!<br><br>
+    </div>
+    
+    <div class="add">
+      <img src="images/add.png">
+    </div>
+
+    <form>
+      <label>Enter a U.S. city</label>
+      <input id="weatherInput" type="text"></input><br/>
+      <input id="weatherSubmit" type="submit" value="Submit"></input>
+    </form>
+
+    <div id="weatherResults">
+    </div>
+
+
+    <div class="forecast" id="forecastResults1">
+    </div>
+
+    <div class="forecast" id="forecastResults2">
+    </div>
+
+    <div class="forecast" id="forecastResults3">
+    </div>
+
+    <div class="forecast" id="forecastResults4">
+    </div>
+
+    <div class="forecast" id="forecastResults5">
+    </div>
+
+    <div class="forecast" id="forecastResults6">
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
     <script text="type/javascript" src="./script.js">

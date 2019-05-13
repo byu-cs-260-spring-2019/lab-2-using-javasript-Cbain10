@@ -1,0 +1,66 @@
+#weather-title {
+    margin: 20px;
+}
+body {
+    color: floralwhite;
+    font-family: monospace;
+}
+
+h1 {
+    color: black;
+    background-color: floralwhite;
+    width: 100%;
+    padding: 20px
+}
+.add {
+    float: right;
+    /*width: 15%;*/
+}
+.daily-forecast {
+    background: floralwhite;
+    color: black;
+    width: 200px;
+    margin: 20px;
+    padding: 30px;
+}
+.forecast {
+    background: floralwhite;
+    color: black;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    width: 175px;
+}
+@media (min-width: 950px) {
+    .add {
+        float: right;
+    }
+    .daily-forecast {
+        width: 30%;
+    }
+    .forecast {
+        background: floralwhite;
+        color: black;
+        float: left;
+        margin: 20px;
+        padding: 10px;
+        width: 175px;
+    }
+}
+@media (max-width: 625px) {
+    .add {
+        float: none;
+        margin: 25px;
+    }
+}
+@media (max-width: 570px){
+    nav {
+        float: right;
+    }
+}
+
+@media (min-width: 1400px) {
+    .forecast {
+        width: 10%;
+    }
+}
